@@ -1,3 +1,5 @@
+The original owner of the project is https://github.com/msameeruddin/image-app
+
 # Image Processing [App](https://process-image-app.herokuapp.com/)
 
 ![image_app_pic](https://user-images.githubusercontent.com/63333753/110889696-a70a8080-8314-11eb-9687-001c6de33888.PNG)
