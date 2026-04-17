@@ -156,9 +156,8 @@ Original project by [msameeruddin](https://github.com/msameeruddin/image-app). I
 
 This project is licensed under the **MIT License**.
 
+
 ## References
 
-[1]: https://nife.io "Nife.io"
-[2]: https://docs.nife.io/overview/quick-deploy "Nife.io Quick Deploy"
-[3]: https://github.com/nifetency/image-app "nifetency/image-app"
-[4]: https://docs.nife.io/deploy/python "Nifectl Quick Start"
+1. https://nife.io
+2. https://docs.nife.io/deploy/python "Nifectl Quick Start"
