@@ -1,87 +1,34 @@
-# Image App Example
+The original owner of the project is https://github.com/msameeruddin/image-app
 
-A **Python-based image processing** application published as a **sample deployment project for [Nife.io](https://nife.io)**.
+# Image Processing [App](https://process-image-app.herokuapp.com/)
 
-This repository demonstrates how to run a lightweight image processing application locally and deploy it on [Nife.io](https://nife.io). It is intended as a practical sample for testing image processing deployment workflows and showcasing a straightforward Flask deployment path.
+![image_app_pic](https://user-images.githubusercontent.com/63333753/110889696-a70a8080-8314-11eb-9687-001c6de33888.PNG)
 
-## Overview
+This is a simple image processing app containing operations like - 
 
-This project is a basic image processing application with a standard project structure and comprehensive image manipulation logic. It provides various image operations and morphological transformations. It is designed to be small enough for learning and deployment experiments while still reflecting the conventions of a real image processing application.[3]
+* Image Equalization
+* Image Flipping
+* Image Mirroring
+* Image Binarization
+* Image Inversion
+* Image Solarization
 
-If you want a simple image processing sample to test deployment on [Nife.io](https://nife.io), this repository is a good starting point.
+and transformations like - 
 
-## Features
+* Image Erosion
+* Image Dilation
+* Image Opening
+* Image Closing
+* Image Morphological Gradient
+* Boundary Extraction
 
-| Feature | Description |
-| --- | --- |
-| Image operations | Equalization, flipping, mirroring, binarization, inversion, solarization |
-| Morphological transformations | Erosion, dilation, opening, closing, gradient, boundary extraction |
-| File upload | Direct image upload from local folder |
-| Grayscale conversion | Toggle switch for grayscale conversion |
-| Flask web interface | User-friendly web-based interface |
-| Deployment-ready setup | Can be deployed using Git-based workflows |
-| Nife.io sample use case | Suitable as a reference project for [Nife.io](https://nife.io) deployments |
+### Features
 
-## Tech Stack
+* User can upload the image file directly from his/her local folder.
+* Toggle switch for converting the image into grayscale.
+* The required output will be displayed in the output (side) window.
 
-| Technology | Purpose |
-| --- | --- |
-| Python | Runtime environment |
-| Flask | Web framework |
-| OpenCV | Computer vision library |
-| NumPy | Numerical computing |
-| Nife.io | Deployment platform |
-
-## Prerequisites
-
-Before running the project locally, make sure the following are installed.
-
-| Requirement | Notes |
-| --- | --- |
-| Python | Version 3.7+ recommended |
-| pip | Python package manager |
-| Git | Required to clone the repository |
-
-## Getting Started
-
-### Clone the repository
-
-```bash
-git clone https://github.com/nifetency/image-app.git
-cd image-app
-```
-
-### Create a virtual environment (recommended)
-
-```bash
-python -m venv venv
-```
-
-**Activate the virtual environment:**
-
-- **On Windows:**
-  ```bash
-  venv\Scripts\activate
-  ```
-
-- **On macOS/Linux:**
-  ```bash
-  source venv/bin/activate
-  ```
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Start the application
-
-```bash
-python app.py
-```
-
-Then open the application at `http://localhost:80`.
+For sure additional operations and transformation will be added. You can checkout the app [here](https://process-image-app.herokuapp.com/).
 
 ## Deploy on Nife.io
 
@@ -110,54 +57,10 @@ nifectl init
 nifectl deploy
 ```
 
-For step-by-step instructions, see the [Nife.io Quick Deploy documentation](https://docs.nife.io/overview/quick-deploy) and the [nifectl quick start guide](https://docs.nife.io/deploy/python).
-
-## Environment Variables
-
-The following variables are commonly relevant for deployment.
-
-| Variable | Description | Example |
-| --- | --- | --- |
-| `FLASK_ENV` | Flask execution environment | `production` |
-| `PORT` | Application port | `80` |
-
-## Repository Structure
-
-| Path | Purpose |
-| --- | --- |
-| `app.py` | Main Flask application |
-| `image_ops_scratch.py` | Image operations implementation |
-| `image_morphs_scratch.py` | Morphological transformations |
-| `assets/` | Static assets (CSS, JavaScript) |
-| `images/` | Sample images and output storage |
-| `requirements.txt` | Python dependencies |
-
-## Troubleshooting
-
-| Issue | Suggested fix |
-| --- | --- |
-| Python not installed | Install Python and verify with `python --version` |
-| Dependencies missing | Run `pip install -r requirements.txt` |
-| Flask import error | Reinstall Flask with `pip install flask` |
-| OpenCV import error | Reinstall OpenCV with `pip install opencv-python` |
-| Virtual environment issues | Delete venv folder and recreate with `python -m venv venv` |
-| Port `80` already in use | Stop the conflicting process or change the port |
-| Image upload fails | Check file permissions in `images/` directory |
-| Deployment fails on Nife.io | Verify ports, environment variables, and build settings |
-| Application is unreachable | Check routing, service exposure, and deployment logs |
-
-## Acknowledgements
-
-This repository is maintained by **Nifetency** as a sample deployment project for [Nife.io](https://nife.io).
-
-Original project by [msameeruddin](https://github.com/msameeruddin/image-app). It is good practice to retain visible credit to the original author.
-
-## License
-
-This project is licensed under the **MIT License**.
+For step-by-step instructions, see the [Nife.io Quick Deploy documentation](https://docs.nife.io/overview/quick-deploy) and the [nifectl quick start guide](https://docs.nife.io/Quick-Start/Nifectl).
 
 
 ## References
 
-1. https://nife.io
-2. https://docs.nife.io/deploy/python "Nifectl Quick Start"
+1. (https://nife.io)
+2. (https://docs.nife.io/deploy/python)
