@@ -59,6 +59,18 @@ nifectl deploy
 
 For step-by-step instructions, see the [Nife.io Quick Deploy documentation](https://docs.nife.io/overview/quick-deploy) and the [nifectl quick start guide](https://docs.nife.io/Quick-Start/Nifectl).
 
+## Option 3: Deploy on NIFE OneClick
+
+Launch your own instance of **image-app** with a single click.
+
+### Deploy as Application
+
+[![Deploy App on OneClick](https://img.shields.io/badge/🚀%20Deploy%20App%20on%20OneClick-6C2CF5?style=for-the-badge)](https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/image-app)
+
+### Deploy as Site
+
+[![Deploy Site on OneClick](https://img.shields.io/badge/🌐%20Deploy%20Site%20on%20OneClick-22C55E?style=for-the-badge)](https://launch.nife.io/deploy-site/start?repository-url=https://github.com/nifetency/image-app)
+
 
 ## References
 
