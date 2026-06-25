@@ -1,3 +1,18 @@
+<div align="center">
+
+<h3 align="center"><b><u>Deploy this project Instantly</u></b></h3>
+
+<a href="https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/image-app">
+  <img
+    src="https://launch.nife.io/deploy-on-nife.svg"
+    alt="Deploy on NIFE"
+    width="280"
+  />
+</a>
+
+</div>
+
+
 The original owner of the project is https://github.com/msameeruddin/image-app
 
 # Image Processing [App](https://process-image-app.herokuapp.com/)
