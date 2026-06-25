@@ -67,10 +67,6 @@ Launch your own instance of **image-app** with a single click.
 
 [![Deploy App on OneClick](https://img.shields.io/badge/🚀%20Deploy%20App%20on%20OneClick-6C2CF5?style=for-the-badge)](https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/image-app)
 
-### Deploy as Site
-
-[![Deploy Site on OneClick](https://img.shields.io/badge/🌐%20Deploy%20Site%20on%20OneClick-22C55E?style=for-the-badge)](https://launch.nife.io/deploy-site/start?repository-url=https://github.com/nifetency/image-app)
-
 
 ## References
 
